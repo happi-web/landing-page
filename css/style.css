@@ -23,7 +23,7 @@
     text-transform: uppercase;
     font-size: 28px;
     font-weight: bold;
-    color: blue;
+    color: #460088;
     padding: 20px 0 10px 100px;
 }
 
@@ -39,7 +39,7 @@
     margin: 5px;
     list-style: none;
     border: 2px solid rgb(226, 226, 226);
-    background-color: #f0ffff;
+    background-color: #460088;
     border-radius: 10px;
 }
 .navbar ul li a 
@@ -47,6 +47,7 @@
     position: relative;
     text-decoration: none;
     font-weight: bold;
+    color: #f0ffff;
     font-size: 18px;
 }
 .navbar ul li:hover {
@@ -56,3 +57,157 @@
 .navbar ul li:hover a {
     color: #f0ffff; 
 }
+
+.header-info
+{
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    padding:48px 100px 10px 100px;
+}
+.header-sub
+{
+    align-items: center;
+}
+
+.header-sub > h1
+{
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+.header-sub > p
+{
+    margin-bottom: 40px;
+    color: rgb(19, 0, 44);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+.btn
+{
+    margin-top:150px;
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid #f0ffff;
+    border-radius: 10px;
+    background-color: #460088;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header-info > img
+{
+    width: 500px;
+    height: auto;
+}
+
+.services{
+    display: block;
+}
+.services > h2,
+.projects > h2
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    color: #460088;
+}
+.list-items
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.items
+{
+    margin: 10px 100px;
+}
+.items > img
+{
+    width: 100%;
+    height: auto;
+}
+.projects
+{
+    
+    background-color: rgb(241, 241, 241);
+}
+
+.projects-items
+{
+    display: flex;
+}
+.projects-items > img
+{
+    width: 30%;
+    height: auto;
+}
+.projects > * 
+{
+    margin: 20px 100px;
+}
+
+.items
+{
+    text-align: center;
+}
+
+.items p a{
+    text-decoration: none;
+    color: rgb(87, 138, 0);
+    font-weight: 800;
+}
+.call-to-action
+{
+    display: flex;
+    flex: 1;
+    background-color: #460088;
+    margin: 20px 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px ;
+    color: #f0ffff;
+    border-radius: 20px;
+}
+.btn-call
+{
+    padding: 15px;
+    background-color: #f0ffff;
+    color: #460088;
+    border-radius: 15px;
+}
+
+.btn-call a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #460088;
+    font-weight: bold;
+}
+.call-info
+{
+    width: 60%;
+}
+footer
+{
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+    border-top: 2px solid rgb(226, 226, 226);
+}
+ footer p{
+    text-align: center;
+    color: #460088;
+    font-size: 18px;
+    font-weight: bold;
+ }
